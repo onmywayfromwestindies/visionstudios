@@ -1,0 +1,298 @@
+/* Global styles*/
+* {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    background-color: floralwhite;
+}
+
+span {
+    font-family: "Quicksand", serif;
+    font-weight: 700; 
+    margin-bottom: 250px;
+    font-size: 40px;
+    color: #FFA44D;
+}
+
+h1,
+h2 {
+    font-family: "Quicksand", serif;
+    font-weight: 700;  
+}
+
+h1 {
+    font-size: 2rem;
+    padding-left: 40px;
+}
+
+h1::first-letter {
+    color: #6D33FF;
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
+
+h2::first-letter {
+    color: #9023E8;
+}
+
+
+h3 {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin: 0;
+    color: #B7B8BC;
+}
+
+section.projects {
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 0 15px;
+}
+
+.firms,
+.member {
+    border: 2.5px solid white;
+}
+
+.infos {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 100%;
+    margin: 5;
+    padding: 10px 30px;
+}
+
+section.projects,
+section.contacts {
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+nav,
+footer {
+    background-color: black;
+}
+
+/* Navigation */
+nav {
+    height: 80px;
+    position: fixed;    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #282B37; 
+}
+
+img.logo {
+    width:auto;
+    height: 80px;
+    margin: 10px 0;
+    margin-left: 20px;
+}
+
+nav .links {
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+nav a {
+    margin: 15px;
+    color: navajowhite;
+}
+
+
+nav button {
+    background-color: #6D33FF;
+    color: navajowhite;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+.links a {
+    display: none;
+}
+h1 {
+    font-size: 3rem;
+}
+nav button {
+    display: none;
+}
+}
+
+/* Header */
+header {
+    background-image: url("./pics/neven-krcmarek-V4EOZj7g1gw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+}
+
+header h1 {
+    max-width: 800px;
+    margin: 20px;
+}
+
+/* Projects */
+.cases {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.firms {
+    width: 300px;
+    min-height: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#logo-fruiba {
+    background-image: url("./pics/okeykat-N6ujBCCFv78-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+#logo-jazzy {
+    background-image: url("./pics/janine-robinson-uZisL-EGGxQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 5;
+}
+
+#logo-jays {
+    background-image: url("./pics/henry-co-y4PEizVDq1Q-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 5;
+}
+
+#logo-bakery {
+    background-image: url("./pics/anna-auza-LFgDW49MW7k-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+/* Teams */
+.members {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.member {
+    width: 250px;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+.member h3 {
+    font-style: italic;
+}
+
+#jeny {
+    background-image: url("./pics/team/gift-habeshaw-Dv_EF2ALuZQ-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tony {
+    background-image: url("./pics/team/jd-mason-UKSoi-H2n_k-unsplash.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pam {
+    background-image: url("./pics/team/keenan-constance-XSCvo0loB-Q-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#rachel {
+    background-image: url("./pics/team/edward-howell-uOcaFZ_aTkY-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#john {
+    background-image: url("./pics/team/marcos-paulo-prado-Ur_QOF3mLyA-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Contacts */
+section.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#font-contact {
+    font-family: "Quicksand", serif;
+    padding-left: -15px;
+}
+
+.contacts img {
+    width: 350px;
+    height: auto;
+    flex-grow: 2;
+    border-radius: 30px;
+}
+
+.contacts .content {
+    width: 200px;
+    margin: 0;
+    flex-grow: 1;
+}
+
+/* Copyright */
+footer {          
+    padding: 5px 30px;
+    border-top: 2px solid #282B37;
+}
+
+footer p,
+footer a {
+    font-size: 0.70rem;
+    text-align: center;
+    color: #797A7F; 
+}
